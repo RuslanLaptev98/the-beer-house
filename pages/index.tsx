@@ -3,6 +3,7 @@ import Head from 'next/head';
 import RootContainer from '../components/layout/RootContainer';
 import Header from '../components/layout/Header';
 import Main from '../components/layout/Main';
+import BeerCatalog from '../features/BeerCatalog';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,9 @@ const Home: NextPage = () => {
 
       <RootContainer>
         <Header />
-        <Main>main component</Main>
+        <Main>
+          <BeerCatalog />
+        </Main>
       </RootContainer>
     </>
   );
