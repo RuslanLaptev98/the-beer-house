@@ -1,0 +1,32 @@
+@import '../../../styles/colors';
+
+.container {
+  height: 260px;
+  width: 285px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  box-shadow: 0.5px 0.5px 3px $dark-gray;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.container:hover {
+  border: 1px solid $dark-gray;
+}
+
+.info {
+  width: 180px;
+}
+
+.name {
+  margin: 0.25rem 0;
+  text-shadow: 0.5px 0.5px 3px $dark-lime;
+  border-bottom: 1px dashed $dark-lime;
+  font-size: 1.25rem;
+}
+
+.description {
+  text-shadow: 0.5px 0.5px 3px $light-lime;
+}

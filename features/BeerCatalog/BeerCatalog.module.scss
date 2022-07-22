@@ -1,4 +1,9 @@
 .container {
+  padding: 0.5rem;
 }
 .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem 0;
 }

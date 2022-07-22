@@ -4,6 +4,7 @@
   height: 40px;
   max-width: 300px;
   position: relative;
+  margin: auto;
 }
 
 .input {
@@ -13,7 +14,7 @@
   outline: none;
   border: 1px solid $light-gray;
   background-color: inherit;
-  border-radius: 3px;
+  border-radius: 4px;
   box-shadow: 0.5px 0.5px 3px $dark-gray;
   color: inherit;
   text-shadow: 0.5px 0.5px 3px $dark-lime;
