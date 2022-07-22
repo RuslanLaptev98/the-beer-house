@@ -6,9 +6,15 @@
   border-radius: 4px;
   box-shadow: 0.5px 0.5px 3px $dark-gray;
   color: inherit;
-  border: none;
+  border: 1px solid $light-gray;
   padding: 0 0.5rem;
   font: inherit;
   cursor: pointer;
   outline: none;
+}
+.container:hover {
+  border: 1px solid $dark-gray;
+}
+.container:active {
+  box-shadow: none;
 }

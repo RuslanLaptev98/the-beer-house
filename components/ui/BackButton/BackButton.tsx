@@ -2,10 +2,16 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './BackButton.module.scss';
 
-const BackButton: React.FC = () => {
+interface BackButtonProps {
+  onClick?: () => void;
+}
+
+const BackButton: React.FC<BackButtonProps> = ({ onClick }) => {
   return (
     <Link href={'/'}>
-      <a className={styles.container}>{'< Back'}</a>
+      <a className={styles.container} onClick={onClick}>
+        {'< Back'}
+      </a>
     </Link>
   );
 };

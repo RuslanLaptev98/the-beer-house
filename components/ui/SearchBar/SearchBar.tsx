@@ -4,7 +4,7 @@ import styles from './SearchBar.module.scss';
 interface SearchBarProps {
   name: string;
   search: string;
-  setSearch: React.Dispatch<React.SetStateAction<string>>;
+  setSearch: (value: string) => void;
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({ name, search, setSearch }) => {
