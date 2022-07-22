@@ -1,0 +1,22 @@
+@import '../../styles/colors';
+
+.container {
+  padding: 0.5rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.info {
+  width: 70%;
+}
+.name {
+  margin: 0.25rem 0;
+  text-shadow: 0.5px 0.5px 3px $dark-lime;
+  border-bottom: 1px dashed $dark-lime;
+  font-size: 1.25rem;
+}
+.imageContainer {
+  max-height: 400px;
+}

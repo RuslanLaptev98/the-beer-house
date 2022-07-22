@@ -14,6 +14,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ name, search, setSearch }) => {
         className={styles.input}
         id={name}
         placeholder=' '
+        autoComplete='off'
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
