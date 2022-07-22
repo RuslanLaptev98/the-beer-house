@@ -6,7 +6,11 @@ interface RootContainerProps {
 }
 
 const RootContainer: React.FC<RootContainerProps> = ({ children }) => {
-  return <section className={styles.container}>{children}</section>;
+  return (
+    <div className={styles.container}>
+      <section className={styles.content}>{children}</section>
+    </div>
+  );
 };
 
 export default RootContainer;
