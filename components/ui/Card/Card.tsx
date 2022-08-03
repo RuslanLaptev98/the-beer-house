@@ -16,6 +16,7 @@ const Card: React.FC<CardProps> = ({ beer }) => {
         src={beer.image_url ? beer.image_url : '/beer.svg'}
         width={50}
         height={200}
+        objectFit='contain'
       />
       <div className={styles.info}>
         <h2 className={styles.name}>{beer.name}</h2>

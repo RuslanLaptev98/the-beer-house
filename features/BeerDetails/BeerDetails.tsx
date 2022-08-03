@@ -41,6 +41,7 @@ const BeerDetails: React.FC = () => {
               src={beer.image_url ? beer.image_url : '/beer.svg'}
               width={100}
               height={400}
+              objectFit='contain'
             />
           </div>
         </section>
