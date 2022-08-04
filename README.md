@@ -2,7 +2,7 @@
 
 [the-beer-house.vercel.app](https://the-beer-house.vercel.app/)
 
-Pet project
+Practice project
 
 ## Tech Stack
 
